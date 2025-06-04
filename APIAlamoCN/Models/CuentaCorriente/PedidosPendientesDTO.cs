@@ -1,4 +1,4 @@
-﻿namespace APIAlamoNOA.Models.CuentaCorriente
+﻿namespace APIAlamoCN.Models.CuentaCorriente
 {
     public class PedidosPendientesDTO
     {

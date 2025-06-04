@@ -1,4 +1,4 @@
-﻿namespace APIAlamoNOA.Models.Response.Pdf
+﻿namespace APIAlamoCN.Models.Response.Pdf
 {
     public class PdfDTO
     {

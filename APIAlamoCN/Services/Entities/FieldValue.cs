@@ -1,4 +1,4 @@
-﻿namespace APIAlamoNOA.Services.Entities
+﻿namespace APIAlamoCN.Services.Entities
 {
     public class FieldValue
     {

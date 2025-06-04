@@ -1,6 +1,6 @@
-﻿using APIAlamoNOA.Models.Response;
+﻿using APIAlamoCN.Models.Response;
 
-namespace APIAlamoNOA.Models.Response.Pdf
+namespace APIAlamoCN.Models.Response.Pdf
 {
     public class PdfResponse : BaseResponse<PdfDTO>
     {

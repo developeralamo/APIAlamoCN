@@ -1,5 +1,5 @@
-using APIAlamoNOA.Exceptions;
-using APIAlamoNOA.Repositories;
+using APIAlamoCN.Exceptions;
+using APIAlamoCN.Repositories;
 using Serilog;
 using Serilog.Sinks.MSSqlServer;
 using System.Collections.ObjectModel;

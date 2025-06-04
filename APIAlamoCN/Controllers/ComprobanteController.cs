@@ -1,9 +1,9 @@
-﻿using APIAlamoNOA.Models.Response.Pdf;
-using APIAlamoNOA.Repositories;
+﻿using APIAlamoCN.Models.Response.Pdf;
+using APIAlamoCN.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace APIAlamoNOA.Controllers
+namespace APIAlamoCN.Controllers
 {
     [ApiController]
 

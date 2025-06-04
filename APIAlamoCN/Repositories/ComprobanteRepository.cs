@@ -1,7 +1,7 @@
-﻿using APIAlamoNOA.Models.Response.Pdf;
+﻿using APIAlamoCN.Models.Response.Pdf;
 
 
-namespace APIAlamoNOA.Repositories
+namespace APIAlamoCN.Repositories
 {
     public class ComprobanteRepository : RepositoryBase
     {

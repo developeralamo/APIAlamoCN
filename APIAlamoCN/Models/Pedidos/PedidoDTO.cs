@@ -1,4 +1,4 @@
-﻿namespace APIAlamoNOA.Models.Pedidos
+﻿namespace APIAlamoCN.Models.Pedidos
 {
     public class PedidoDTO
     {

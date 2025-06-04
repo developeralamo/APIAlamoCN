@@ -1,7 +1,7 @@
-﻿using APIAlamoNOA.Services.Entities;
+﻿using APIAlamoCN.Services.Entities;
 using Newtonsoft.Json;
 
-namespace APIAlamoNOA.Services
+namespace APIAlamoCN.Services
 {
     public class FieldMapper
     {

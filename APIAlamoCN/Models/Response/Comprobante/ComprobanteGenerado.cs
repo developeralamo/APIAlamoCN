@@ -1,4 +1,4 @@
-﻿namespace APIAlamoNOA.Models.Response.Comprobante
+﻿namespace APIAlamoCN.Models.Response.Comprobante
 {
     public class ComprobanteGenerado
     {

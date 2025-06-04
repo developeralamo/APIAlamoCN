@@ -1,7 +1,7 @@
-﻿using APIAlamoNOA.Models.Response.Comprobante;
+﻿using APIAlamoCN.Models.Response.Comprobante;
 using Microsoft.Data.SqlClient;
 
-namespace APIAlamoNOA.Repositories
+namespace APIAlamoCN.Repositories
 {
     public class CuentaCorrienteRepository : RepositoryBase
     {

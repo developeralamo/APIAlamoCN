@@ -1,5 +1,5 @@
-﻿using APIAlamoNOA.Models.Response.Comprobante;
-using APIAlamoNOA.Services.Entities;
+﻿using APIAlamoCN.Models.Response.Comprobante;
+using APIAlamoCN.Services.Entities;
 using Microsoft.Data.SqlClient;
 using System.Collections;
 using System.Configuration;
@@ -8,7 +8,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Transactions;
 
-namespace APIAlamoNOA.Repositories
+namespace APIAlamoCN.Repositories
 {
     public class RepositoryBase
     {
@@ -169,7 +169,7 @@ namespace APIAlamoNOA.Repositories
 
             if (item.FixedValue != null)
             {
-                return FormatStringSql(item.FixedValue);
+                return FormatStrin  gSql(item.FixedValue);
             }
 
             if (item.Function != null)
