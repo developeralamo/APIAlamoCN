@@ -1,0 +1,279 @@
+{
+  "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FieldMap, APIAlamoCN]], mscorlib",
+  "$values": [
+    {
+      "Table": "SAR_VTMCLH",
+      "ParentTable": null,
+      "ParentProperty": null,
+      "Fields": {
+        "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN]], mscorlib",
+        "$values": [
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_IDENTI",
+            "PropertyName": "identificador",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_NROCTA",
+            "PropertyName": null,
+            "FixedValue": null,
+            "Function": {
+              "$type": "APIAlamoCN.Services.Entities.FieldFunction, APIAlamoCN",
+              "Name": "Alm_Fnc_Ins_SAR_VTMCLH_NROCTA",
+              "Parameters": {
+                "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FunctionParameters, APIAlamoCN]], mscorlib",
+                "$values": [
+                  {
+                    "Name": "identificador",
+                    "PropertyName": "identificador"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_STATUS",
+            "PropertyName": null,
+            "FixedValue": "N",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_NOMBRE",
+            "PropertyName": "razonSocial",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_DIRECC",
+            "PropertyName": "direccionCalle",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_DEPTOS",
+            "PropertyName": "departamento",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_CODPAI",
+            "PropertyName": "pais",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_CODPOS",
+            "PropertyName": "codigoPostal",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_MUNICP",
+            "PropertyName": "municipio",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_TELEFN",
+            "PropertyName": "telefono",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_CNDIVA",
+            "PropertyName": "situacionImpositiva",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_TIPDOC",
+            "PropertyName": "tipoDeDocumento",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_NRODOC",
+            "PropertyName": "numeroDeDocumento",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_VNDDOR",
+            "PropertyName": null,
+            "FixedValue": "NA",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_COBRAD",
+            "PropertyName": null,
+            "FixedValue": "NA",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_JURISD",
+            "PropertyName": null,
+            "FixedValue": "917",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_CODZON",
+            "PropertyName": null,
+            "FixedValue": "01",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_CNDPAG",
+            "PropertyName": null,
+            "FixedValue": "CO",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_CNDPRE",
+            "PropertyName": null,
+            "FixedValue": "0101",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VTMCLH_JURENT",
+            "PropertyName": null,
+            "FixedValue": "917",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_TEXTOS",
+            "PropertyName": "observaciones",
+            "FixedValue": "N",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_CODEXP",
+            "PropertyName": null,
+            "FixedValue": "3",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_CODMUN",
+            "PropertyName": "localidad",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_CODZON",
+            "PropertyName": null,
+            "FixedValue": "01",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_BARRIO",
+            "PropertyName": "barrio",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_CODCAL",
+            "PropertyName": "calle",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_NUMERO",
+            "PropertyName": "numeroLote",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_MANZAN",
+            "PropertyName": "manzana",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_PARCEL",
+            "PropertyName": "parcela",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_NROTIR",
+            "PropertyName": "etapa",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_VTMCLH_MONOBL",
+            "PropertyName": "monoblock",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VT_FECALT",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VT_FECMOD",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VT_ULTOPR",
+            "PropertyName": null,
+            "FixedValue": "A",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VT_USERID",
+            "PropertyName": null,
+            "FixedValue": "API",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_VT_OALIAS",
+            "PropertyName": null,
+            "FixedValue": "SAR_VTMCLH",
+            "Function": null
+          }
+        ]
+      }
+    }
+  ]
+}

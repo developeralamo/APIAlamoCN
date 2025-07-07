@@ -15,7 +15,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<PedidosRepository>();
 builder.Services.AddScoped<CuentaCorrienteRepository>();
 builder.Services.AddScoped<ComprobanteRepository>();
-
+builder.Services.AddScoped<ClientesRepository>();
+builder.Services.AddScoped<FCRepository>();
 
 var columnOptions = new ColumnOptions
 {

@@ -169,7 +169,7 @@ namespace APIAlamoCN.Repositories
 
             if (item.FixedValue != null)
             {
-                return FormatStrin  gSql(item.FixedValue);
+                return FormatStringSql(item.FixedValue);
             }
 
             if (item.Function != null)

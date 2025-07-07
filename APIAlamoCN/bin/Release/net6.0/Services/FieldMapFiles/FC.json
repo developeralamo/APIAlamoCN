@@ -1,0 +1,589 @@
+{
+  "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FieldMap, APIAlamoCN]], mscorlib",
+  "$values": [
+    {
+      "Table": "SAR_FCRMVH",
+      "ParentTable": null,
+      "ParentProperty": null,
+      "Fields": {
+        "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN]], mscorlib",
+        "$values": [
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_IDENTI",
+            "PropertyName": "identificador",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_STATUS",
+            "PropertyName": null,
+            "FixedValue": "N",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_FCHMOV",
+            "PropertyName": "fechaDeMovimiento",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_CIRCOM",
+            "PropertyName": null,
+            "FixedValue": null,
+            "Function": {
+              "$type": "APIAlamoCN.Services.Entities.FieldFunction, APIAlamoCN",
+              "Name": "Alm_Fnc_Ins_SarFcrmvh_DefinoCircuito",
+              "Parameters": {
+                "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FunctionParameters, APIAlamoCN]], mscorlib",
+                "$values": [
+                  {
+                    "Name": "comprobanteVentas",
+                    "PropertyName": "comprobanteVentas"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_CIRAPL",
+            "PropertyName": null,
+            "FixedValue": null,
+            "Function": {
+              "$type": "APIAlamoCN.Services.Entities.FieldFunction, APIAlamoCN",
+              "Name": "Alm_Fnc_Ins_SarFcrmvh_DefinoCircuito",
+              "Parameters": {
+                "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FunctionParameters, APIAlamoCN]], mscorlib",
+                "$values": [
+                  {
+                    "Name": "comprobanteVentas",
+                    "PropertyName": "comprobanteVentas"
+                  }
+                ]
+              }
+            }
+
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_CODEMP",
+            "PropertyName": null,
+            "FixedValue": null,
+            "Function": {
+              "$type": "APIAlamoCN.Services.Entities.FieldFunction, APIAlamoCN",
+              "Name": "Alm_Fnc_Ins_SarFcrmvh_DefinoCodemp",
+              "Parameters": {
+                "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FunctionParameters, APIAlamoCN]], mscorlib",
+                "$values": [
+                  {
+                    "Name": "identificador",
+                    "PropertyName": "identificador"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_NROCTA",
+            "PropertyName": "cliente",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_CODCVT",
+            "PropertyName": "comprobanteVentas",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_SUCURS",
+            "PropertyName": "sucursal",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_NROFOR",
+            "PropertyName": "numero",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_VNDDOR",
+            "PropertyName": "vendedor",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_CNDPAG",
+            "PropertyName": "condicionDePago",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_TEXTOS",
+            "PropertyName": "observaciones",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_TIPEXP",
+            "PropertyName": null,
+            "FixedValue": "3",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_NROCAE",
+            "PropertyName": "numeroDeCae",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_VENCAE",
+            "PropertyName": "vencimientoDeCae",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_RECHAZ",
+            "PropertyName": "generadoPorRechazoDelComprobanteOriginal",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_TIPDOP",
+            "PropertyName": "tipoDeDatoOpcionalAfip",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_VALDOP",
+            "PropertyName": "valorDatoOpcionalAfip",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_CBTAPL",
+            "PropertyName": "comprobanteVentasAplica",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_SUCAPL",
+            "PropertyName": "sucursalAplica",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_NUMAPL",
+            "PropertyName": "numeroDeFormularioAplica",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_CODAPL",
+            "PropertyName": null,
+            "FixedValue": null,
+            "Function": {
+              "$type": "APIAlamoCN.Services.Entities.FieldFunction, APIAlamoCN",
+              "Name": "Alm_Fnc_Ins_SarFcrmvh_SelCodapl",
+              "Parameters": {
+                "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FunctionParameters, APIAlamoCN]], mscorlib",
+                "$values": [
+                  {
+                    "Name": "comprobanteVentasAplica",
+                    "PropertyName": "comprobanteVentasAplica"
+                  },
+                  {
+                    "Name": "sucursalAplica",
+                    "PropertyName": "sucursalAplica"
+                  },
+                  {
+                    "Name": "numeroDeFormularioAplica",
+                    "PropertyName": "numeroDeFormularioAplica"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_NROAPL",
+            "PropertyName": null,
+            "FixedValue": null,
+            "Function": {
+              "$type": "APIAlamoCN.Services.Entities.FieldFunction, APIAlamoCN",
+              "Name": "Alm_Fnc_Ins_SarFcrmvh_NroCodapl",
+              "Parameters": {
+                "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FunctionParameters, APIAlamoCN]], mscorlib",
+                "$values": [
+                  {
+                    "Name": "comprobanteVentasAplica",
+                    "PropertyName": "comprobanteVentasAplica"
+                  },
+                  {
+                    "Name": "sucursalAplica",
+                    "PropertyName": "sucursalAplica"
+                  },
+                  {
+                    "Name": "numeroDeFormularioAplica",
+                    "PropertyName": "numeroDeFormularioAplica"
+                  }
+                ]
+
+              }
+            }
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVH_EJEAUT",
+            "PropertyName": null,
+            "FixedValue": "N",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECALT",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECMOD",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_ULTOPR",
+            "PropertyName": null,
+            "FixedValue": "A",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_USERID",
+            "PropertyName": null,
+            "FixedValue": "API",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_OALIAS",
+            "PropertyName": null,
+            "FixedValue": "SAR_FCRMVH",
+            "Function": null
+          }
+        ]
+      }
+    },
+    {
+      "Table": "SAR_FCRMVI",
+      "ParentTable": "SAR_FCRMVH",
+      "ParentProperty": "items",
+      "Fields": {
+        "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN]], mscorlib",
+        "$values": [
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_IDENTI",
+            "PropertyName": "identificador",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_NROITM",
+            "PropertyName": "numeroitem",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_TIPPRO",
+            "PropertyName": "tipoDeProducto",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_ARTCOD",
+            "PropertyName": "producto",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_PRECIO",
+            "PropertyName": "precio",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_CANTID",
+            "PropertyName": "cantidad",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_PCTBF1",
+            "PropertyName": "bonificacion1",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI_TEXTOS",
+            "PropertyName": "observaciones",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECALT",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECMOD",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_ULTOPR",
+            "PropertyName": null,
+            "FixedValue": "A",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_USERID",
+            "PropertyName": null,
+            "FixedValue": "API",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_OALIAS",
+            "PropertyName": null,
+            "FixedValue": "SAR_FCRMVI",
+            "Function": null
+          }
+        ]
+      }
+    },
+    {
+      "Table": "SAR_FCRMVI07",
+      "ParentTable": "SAR_FCRMVH",
+      "ParentProperty": "impuestos",
+      "Fields": {
+        "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN]], mscorlib",
+        "$values": [
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI07_IDENTI",
+            "PropertyName": "identificador",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI07_NROITM",
+            "PropertyName": "numeroitem",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI07_TIPCPT",
+            "PropertyName": "tipoDeConcepto",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI07_CODCPT",
+            "PropertyName": "concepto",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI07_INGRES",
+            "PropertyName": "importeIngresado",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI07_IMPGRA",
+            "PropertyName": "importeGravado",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI07_PORCEN",
+            "PropertyName": "tasa",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECALT",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECMOD",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_ULTOPR",
+            "PropertyName": null,
+            "FixedValue": "A",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_USERID",
+            "PropertyName": null,
+            "FixedValue": "API",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_OALIAS",
+            "PropertyName": null,
+            "FixedValue": "SAR_FCRMVI",
+            "Function": null
+          }
+        ]
+      }
+    },
+    {
+      "Table": "SAR_FCRMVI09",
+      "ParentTable": "SAR_FCRMVH",
+      "ParentProperty": "pagos",
+      "Fields": {
+        "$type": "System.Collections.Generic.List`1[[APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN]], mscorlib",
+        "$values": [
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI09_IDENTI",
+            "PropertyName": "identificador",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI09_NROITM",
+            "PropertyName": "numeroitem",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI09_TIPCPT",
+            "PropertyName": "tipoDeConcepto",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI09_CODCPT",
+            "PropertyName": "codigoDeConcepto",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI09_CHEQUE",
+            "PropertyName": "chequeDocumento",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVI09_IMPORT",
+            "PropertyName": "importe",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECALT",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_FECMOD",
+            "PropertyName": null,
+            "FixedValue": "GETDATE()",
+            "Function": null
+
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_ULTOPR",
+            "PropertyName": null,
+            "FixedValue": "A",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_USERID",
+            "PropertyName": null,
+            "FixedValue": "API",
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FC_OALIAS",
+            "PropertyName": null,
+            "FixedValue": "SAR_FCRMVI",
+            "Function": null
+          }
+        ]
+      }
+    }
+  ]
+}
