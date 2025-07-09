@@ -74,3 +74,4 @@ C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\ne
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\APIAlamoCN.pdb
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\APIAlamoCN.genruntimeconfig.cache
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\ref\APIAlamoCN.dll
+C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\bin\Release\net6.0\Services\FieldMapFiles\CO.json

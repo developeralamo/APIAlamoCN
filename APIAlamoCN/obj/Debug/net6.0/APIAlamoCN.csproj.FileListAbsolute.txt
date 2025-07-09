@@ -74,3 +74,4 @@ C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Debug\net6
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Debug\net6.0\ref\APIAlamoCN.dll
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\bin\Debug\net6.0\Services\FieldMapFiles\Clientes.json
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\bin\Debug\net6.0\Services\FieldMapFiles\FC.json
+C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\bin\Debug\net6.0\Services\FieldMapFiles\CO.json

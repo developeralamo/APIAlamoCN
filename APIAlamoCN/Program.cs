@@ -17,6 +17,7 @@ builder.Services.AddScoped<CuentaCorrienteRepository>();
 builder.Services.AddScoped<ComprobanteRepository>();
 builder.Services.AddScoped<ClientesRepository>();
 builder.Services.AddScoped<FCRepository>();
+builder.Services.AddScoped<CORepository>();
 
 var columnOptions = new ColumnOptions
 {
