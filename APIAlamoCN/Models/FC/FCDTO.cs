@@ -48,6 +48,8 @@ namespace APIAlamoCN.Models.FC
         [StringLength(6, ErrorMessage = "comprobanteVentasAplica no puede exceder los 6 caracteres.")]
         public string? comprobanteVentasAplica { get; set; }
 
+        public string? clienteExterno { get; set; }
+
         [StringLength(6, ErrorMessage = "sucursalAplica no puede exceder los 6 caracteres.")]
         public string? sucursalAplica { get; set; }
 

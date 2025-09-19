@@ -15,6 +15,7 @@ namespace APIAlamoCN.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class ClientesController : ControllerBase
     {
 
@@ -93,6 +94,7 @@ namespace APIAlamoCN.Controllers
 
         [HttpGet]
         [Route("{identificador}")]
+
         public async Task<ActionResult<ComprobanteResponse>> GetFacturacion(string identificador)
         {
             ComprobanteResponse respuesta = await Repository.GetTransaccion(identificador, "SAR_VTMCLH");

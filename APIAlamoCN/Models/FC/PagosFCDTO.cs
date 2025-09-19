@@ -23,5 +23,7 @@ namespace APIAlamoCN.Models.FC
 
         [JsonConverter(typeof(DecimalNullableConverter))]
         public decimal? importe { get; set; }
+        
+        public string? observaciones { get; set; }
     }
 }

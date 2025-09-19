@@ -4,6 +4,7 @@ C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\ne
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Services\FieldMapFiles\Clientes.json
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Services\FieldMapFiles\CO.json
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Services\FieldMapFiles\FC.json
+C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Services\FieldMapFiles\NC.json
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Services\FieldMapFiles\Pedidos.json
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\APIAlamoCN.dll
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\APIAlamoCN.deps.json
@@ -11,6 +12,7 @@ C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\ne
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\APIAlamoCN.pdb
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Azure.Core.dll
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Azure.Identity.dll
+C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\Users\wopderbeck\source\repos\APIAlamoCN\APIAlamoCN\APIAlamoCN\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Configuration.dll

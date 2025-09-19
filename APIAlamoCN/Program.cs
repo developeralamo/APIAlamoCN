@@ -2,9 +2,18 @@ using APIAlamoCN.Exceptions;
 using APIAlamoCN.Repositories;
 using Serilog;
 using Serilog.Sinks.MSSqlServer;
+using System;
 using System.Collections.ObjectModel;
 using System.Data;
+using System.Net.NetworkInformation;
 using System.Text.Json.Serialization;
+using APIAlamoCN.Models.ApiKey;
+//using APIAlamoCN.Services.ApiKey;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +27,7 @@ builder.Services.AddScoped<ComprobanteRepository>();
 builder.Services.AddScoped<ClientesRepository>();
 builder.Services.AddScoped<FCRepository>();
 builder.Services.AddScoped<CORepository>();
-
+builder.Services.AddScoped<LoginRepository>();
 var columnOptions = new ColumnOptions
 {
     AdditionalColumns = new Collection<SqlColumn>
@@ -63,6 +72,27 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var key = builder.Configuration["key"];
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
+
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -74,7 +104,8 @@ if (app.Environment.IsDevelopment())
 
 //app.UseHttpsRedirection();
 
-//app.UseAuthorization();
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

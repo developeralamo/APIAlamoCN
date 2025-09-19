@@ -201,6 +201,13 @@
           },
           {
             "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "USR_FCRMVH_NROCTA",
+            "PropertyName": "clienteExterno",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
             "Field": "USR_FCRMVH_CODAPL",
             "PropertyName": null,
             "FixedValue": null,
@@ -498,7 +505,7 @@
       }
     },
     {
-      "Table": "SAR_FCRMVI09",
+      "Table": "SAR_FCRMVT",
       "ParentTable": "SAR_FCRMVH",
       "ParentProperty": "pagos",
       "Fields": {
@@ -506,43 +513,50 @@
         "$values": [
           {
             "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
-            "Field": "SAR_FCRMVI09_IDENTI",
+            "Field": "SAR_FCRMVT_IDENTI",
             "PropertyName": "identificador",
             "FixedValue": null,
             "Function": null
           },
           {
             "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
-            "Field": "SAR_FCRMVI09_NROITM",
+            "Field": "SAR_FCRMVT_NROITM",
             "PropertyName": "numeroitem",
             "FixedValue": null,
             "Function": null
           },
           {
             "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
-            "Field": "SAR_FCRMVI09_TIPCPT",
+            "Field": "SAR_FCRMVT_TIPCPT",
             "PropertyName": "tipoDeConcepto",
             "FixedValue": null,
             "Function": null
           },
           {
             "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
-            "Field": "SAR_FCRMVI09_CODCPT",
+            "Field": "SAR_FCRMVT_CODCPT",
             "PropertyName": "codigoDeConcepto",
             "FixedValue": null,
             "Function": null
           },
           {
             "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
-            "Field": "SAR_FCRMVI09_CHEQUE",
+            "Field": "SAR_FCRMVT_CHEQUE",
             "PropertyName": "chequeDocumento",
             "FixedValue": null,
             "Function": null
           },
           {
             "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
-            "Field": "SAR_FCRMVI09_IMPORT",
+            "Field": "SAR_FCRMVT_IMPORT",
             "PropertyName": "importe",
+            "FixedValue": null,
+            "Function": null
+          },
+          {
+            "$type": "APIAlamoCN.Services.Entities.FieldValue, APIAlamoCN",
+            "Field": "SAR_FCRMVT_TEXTOS",
+            "PropertyName": "observaciones",
             "FixedValue": null,
             "Function": null
           },

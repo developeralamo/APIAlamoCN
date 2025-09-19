@@ -27,7 +27,6 @@ namespace APIAlamoCN.Models.FC
         [JsonConverter(typeof(DecimalNullableConverter))]
         public decimal? bonificacion1 { get; set; }
 
-        // No se puede usar [StringLength] en campos tipo TEXT; validar manualmente si hace falta
         public string? observaciones { get; set; }
     }
 }

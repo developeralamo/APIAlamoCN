@@ -13,6 +13,7 @@ namespace APIAlamoCN.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class FCController : ControllerBase
     {
 
